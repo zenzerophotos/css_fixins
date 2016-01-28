@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Fixins</title>
+  <style>
+    body {
+      width: 100%;
+              max-width: 960px;
+      margin: 0 auto;
+        background-color: #EEE; }
+
+    #navbar{
+      width: 100%;
+                margin: 20px 0;
+      margin-bottom: 30px;
+            padding-bottom: 30px;
+    }
+
+    nav#navbar ul {
+      width: 100%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    
+
+    nav#navbar ul li {
+      with: 33%;
+              float: left;
+
+    }
+
+    nav#navbar ul li a
+      display: block;
+      width: 100%;
+      text-align: center;
+      pading: 8px 0;
+      background-color: #0FF;
+      text-decoration: none;
+      color: #0O0;
+    }
+
+    nav#navbar ul li a:hover {
+      background-color: #F0F;
+      font-size: 1.3em;
+    }
+
+    nav#navbar ul li:first-child a {
+      border-bottom-left-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+
+    nav#navbar ul li:last-child a {
+      border-bottom-right-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+
+  </style>
+</head>
+<body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div id='content'>
+      <section>
+        <h1> Contact Me </h1>
+        <p> This is your Contact me page! </p>
+      </section>
+
+    </div>
+</body>
+</html>
